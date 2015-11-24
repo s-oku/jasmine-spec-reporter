@@ -1,5 +1,5 @@
 var SpecDisplay = function (options, displayProcessors) {
-  this.indent = '  ';
+  this.indent = options.indent || '  ';
   this.currentIndent = '';
   this.suiteHierarchy = [];
   this.suiteHierarchyDisplayed = [];
